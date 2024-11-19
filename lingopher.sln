@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "lingopher", "lingopher\lingopher.fsproj", "{B18BC6DE-A1C6-4918-85E5-AAB330024C0B}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "server", "server\server.fsproj", "{B18BC6DE-A1C6-4918-85E5-AAB330024C0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

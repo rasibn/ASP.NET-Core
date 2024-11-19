@@ -1,4 +1,4 @@
-module lingopher.App
+module server.App
 
 open System
 open System.IO
@@ -8,7 +8,7 @@ open Microsoft.Extensions.Hosting
 open Microsoft.Extensions.DependencyInjection
 open Giraffe
 
-open lingopher.handlers
+open server.handlers
 
 let webApp =
     choose [
@@ -19,7 +19,7 @@ let webApp =
             ]
         setStatusCode 404 >=> text "Not Found" ]
     
-open lingopher.server_config
+open server.server_config
 
 let configureApp (app : IApplicationBuilder) =
     let env = app.ApplicationServices.GetService<IWebHostEnvironment>()

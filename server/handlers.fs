@@ -1,7 +1,7 @@
-﻿module lingopher.handlers
+﻿module server.handlers
 
 open Giraffe
-open lingopher.views
+open server.views
 
 let indexHandler (name : string) =
     let greetings = $"Hello {name}, from Giraffe!"

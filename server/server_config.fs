@@ -1,4 +1,4 @@
-﻿module lingopher.server_config
+﻿module server.server_config
 
 open System
 open Giraffe

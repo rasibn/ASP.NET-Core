@@ -1,4 +1,4 @@
-﻿module lingopher.views
+﻿module server.views
 
 open Giraffe.ViewEngine
 
